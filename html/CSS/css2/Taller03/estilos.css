@@ -1,0 +1,10 @@
+a:hover{
+    color: brown;
+    
+}
+a:active{
+    color: cadetblue;
+    display: inline;
+    width: 100px;
+    border: 1px solid black;
+}
