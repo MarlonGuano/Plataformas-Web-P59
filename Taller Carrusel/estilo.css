@@ -1,0 +1,83 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedor{
+    width: 100%;
+    height: 641px;
+
+}
+header{
+    height: 20%;
+    background-color: rgb(241, 113, 21);
+    margin-bottom: 6px;
+}
+nav{
+    float: left;
+    width: 20%;
+    height: 69%;
+    border: 2px solid rgb(241, 113, 21);
+}
+.carrusel{
+    float: right;
+    width: 79%;
+    height: 69%;
+    border: 2px solid rgb(241, 113, 21);
+}
+@supports(object-fit: cover){
+    .carrusel img{
+        padding-left: 250px;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+footer{
+    margin-top: 459px;
+    height: 10%;
+    background-color: rgb(241, 113, 21);
+}
+.opciones{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.opciones{
+    display: block;
+    text-decoration: none;
+}
+
+.opciones-item:hover{
+    color: red;
+    font-size: 35px;
+}
+.carrusel-atras{
+    font-size: 50px;
+    float: left;
+    margin-top:200px;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: blanchedalmond;
+    align-content: center;
+    background-color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+.carrusel-adelante{
+    font-size: 50px;
+    float: right;
+    margin-top:200px;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: blanchedalmond;
+    align-content: center;
+    background-color: rgb(63, 63, 63);
+    cursor: pointer;
+}
+.carrusel-adelante:hover{
+    background-color: rgb(87, 87, 87);
+}
+.carrusel-atras:hover{
+    background-color: rgb(87, 87, 87);
+}
