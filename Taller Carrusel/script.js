@@ -1,6 +1,6 @@
-let galeria1=['Galeria_01/01.jpg','Galeria_01/02.jpg','Galeria_01/03.jpg','Galeria_01/04.jpg','Galeria_01/05.jpg','Galeria_01/06.jpg']
-let galeria2=['Galeria_02/01.jpg','Galeria_02/02.jpg','Galeria_02/03.jpg','Galeria_02/04.jpg','Galeria_02/05.jpg','Galeria_02/06.jpg','Galeria_02/07.jpg','Galeria_02/08.jpg','Galeria_02/09.jpg']
-let galeria3=['Galeria_03/01.jpg','Galeria_03/02.jpg','Galeria_03/03.jpg','Galeria_03/04.jpg','Galeria_03/05.jpg','Galeria_03/06.jpg','Galeria_03/07.jpg','Galeria_03/08.jpg']
+let galeria1=['Imagenes/Galeria_01/01.jpg','Imagenes/Galeria_01/02.jpg','Imagenes/Galeria_01/03.jpg','Imagenes/Galeria_01/04.jpg','Imagenes/Galeria_01/05.jpg','Imagenes/Galeria_01/06.jpg']
+let galeria2=['Imagenes/Galeria_02/01.jpg','Imagenes/Galeria_02/02.jpg','Imagenes/Galeria_02/03.jpg','Imagenes/Galeria_02/04.jpg','Imagenes/Galeria_02/05.jpg','Imagenes/Galeria_02/06.jpg','Imagenes/Galeria_02/07.jpg','Imagenes/Galeria_02/08.jpg','Imagenes/Galeria_02/09.jpg']
+let galeria3=['Imagenes/Galeria_03/01.jpg','Imagenes/Galeria_03/02.jpg','Imagenes/Galeria_03/03.jpg','Imagenes/Galeria_03/04.jpg','Imagenes/Galeria_03/05.jpg','Imagenes/Galeria_03/06.jpg','Imagenes/Galeria_03/07.jpg','Imagenes/Galeria_03/08.jpg']
 cont =0;
 opcion=[];
 
