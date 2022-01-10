@@ -3,26 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Carrusel Imagenes</title>
     <script type="text/Javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css"/>
 </head>
 <body>
     <div id="contenedor">
-        <header></header>
+        <header>
+        </header>
         <nav>
             <div class="opciones">
-                <div class="opciones-item" onclick="galeria (1)"> GALERIA 1</div>
+                <div class="opciones-item" onclick="galeria (1)">GALERIA 1</div>
                 <div class="opciones-item" onclick="galeria (2)">GALERIA 2</div>
                 <div class="opciones-item" onclick="galeria (3)">GALERIA 3</div>
             </div>       
         </nav>
         <div class="carrusel">
-            <div class="carrusel-atras" onclick="atras()">&#60</div>
+            <div class="carrusel-atras" onclick="anterior()">&#60</div>
             <img src="" alt="" id="imagen">
-            <div class="carrusel-adelante"onclick="adelante()">&#62</div>
+            <div class="carrusel-adelante"onclick="siguiente()">&#62</div>
         </div>
-        <footer></footer>
+        <footer>
+        </footer>
     </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
 }
 #contenedor{
     width: 100%;
@@ -8,20 +8,20 @@ body{
 }
 header{
     height: 20%;
-    background-color: rgb(241, 113, 21);
+    background-color: #ffbf02;
     margin-bottom: 6px;
 }
 nav{
     float: left;
     width: 20%;
     height: 69%;
-    border: 2px solid rgb(241, 113, 21);
+    border: 2px solid #ffbf02;
 }
 .carrusel{
     float: right;
     width: 79%;
     height: 69%;
-    border: 2px solid rgb(241, 113, 21);
+    border: 2px solid #ffbf02;
 }
 @supports(object-fit: cover){
     .carrusel img{
@@ -34,10 +34,11 @@ nav{
 footer{
     margin-top: 459px;
     height: 10%;
-    background-color: rgb(241, 113, 21);
+    background-color: #ffbf02;
 }
 .opciones{
     text-align: center;
+    color: #2a5899;
     font-size: 25px;
     margin-top: 20px;
     cursor: pointer;
@@ -48,8 +49,9 @@ footer{
 }
 
 .opciones-item:hover{
-    color: red;
-    font-size: 35px;
+    color: #2a5899; 
+    font-size: 30px;  
+    background-color: #ffbf02; 
 }
 .carrusel-atras{
     font-size: 50px;
